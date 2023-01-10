@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Prata&display=swap");
+
+:root {
+  --clr-primary: hsl(240, 5%, 4%);
+  --clr-secondary: hsl(228, 10%, 20%);
+  --clr-accent: hsl(53, 96%, 65%);
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --ff-primary: "Prata", serif;
+  --ff-secondary: "Inter", serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: var(--ff-primary);
+  font-size: 2rem;
+}
+
+h2 {
+  font-family: var(--ff-primary);
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: var(--ff-secondary);
+  opacity: 60%;
+  padding: 1em 0;
+  font-size: 0.8rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+section {
+  padding: 2em 0;
+}
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  background-color: var(--clr-accent);
+  color: black;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  font-family: var(--ff-primary);
+  margin-top: 1em;
+}
+
+.name {
+  color: var(--clr-neutral-100);
+  text-decoration: none;
+}
+
+.header {
+  background-color: var(--clr-primary);
+  text-align: center;
+  padding: 2em 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--clr-neutral-100);
+  opacity: 60%;
+}
+
+.section-1 {
+  background-color: var(--clr-primary);
+  color: var(--clr-neutral-100);
+}
+
+.section-2 {
+  background-color: var(--clr-primary);
+}
+
+.section-3 {
+  background-color: var(--clr-primary);
+  color: var(--clr-neutral-100);
+}
+
+.section-4 {
+  background-color: var(--clr-secondary);
+  color: var(--clr-neutral-100);
+}
+
+.section-5 {
+  background-color: var(--clr-primary);
+  color: var(--clr-neutral-100);
+}
+
+.footer {
+  background-color: var(--clr-secondary);
+  color: var(--clr-neutral-100);
+}
+
+@media (min-width: 800px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .section-1-text {
+    width: 60%;
+  }
+
+  .section-5-text {
+    width: 50%;
+  }
+}
