@@ -101,6 +101,7 @@ section {
 .footer {
   background-color: var(--clr-secondary);
   color: var(--clr-neutral-100);
+  padding: 2em 0;
 }
 
 @media (min-width: 800px) {
